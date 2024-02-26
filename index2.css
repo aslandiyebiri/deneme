@@ -1,0 +1,41 @@
+/*
+    Pseudo elementleri
+*/
+p::first-line{
+    font-weight: bold;
+    color: darkred;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+p::first-letter{
+    font-size: 50px;
+}
+/*Pseudo class*/
+
+ul li{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+ul li:first-child{
+    background-color: rgb(68, 165, 38);
+}
+ul li:last-child{
+    background-color: rgb(247, 247, 12);
+}
+a :visited{
+   color: gold;
+}
+a :hover{
+    color: white;
+    background-color: mediumslateblue;
+
+}
+a {
+    padding: 5px  10px;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    margin-bottom: 10 px;
+
+
+}

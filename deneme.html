@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basit HTML Form</title>
+</head>
+<body>
+
+  <h2>Kullanici Bilgi Formu</h2>
+
+  <!-- Form başlangıcı -->
+  <form action="/submit_form" method="post">
+    <!-- Metin girişi -->
+    <label for="username">Kullanici Adi:</label>
+    <input type="text" id="username" name="username" required>
+
+    <br>
+
+    <!-- Şifre girişi -->
+    <label for="password">Şifre:</label>
+    <input type="password" id="password" name="password" required>
+
+    <br>
+
+    <!-- Onay kutusu -->
+    <input type="checkbox" id="subscribe" name="subscribe">
+    <label for="subscribe">Bültenimize abone olun</label>
+
+    <br>
+
+    <!-- Gönderme düğmesi -->
+    <button type="submit">Gönder</button>
+  </form>
+  <form>
+    
+
+</body>
+</html>
